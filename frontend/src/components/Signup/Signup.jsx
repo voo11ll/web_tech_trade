@@ -29,14 +29,6 @@ const Signup = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Логирование данных перед отправкой
-    console.log({
-      name,
-      email,
-      password,
-      avatar
-    });
-
     try {
       const response = await axios.post(`${server}/user/create-user`, {
         name,

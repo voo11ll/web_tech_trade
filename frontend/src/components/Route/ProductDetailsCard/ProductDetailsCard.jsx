@@ -103,7 +103,7 @@ const ProductDetailsCard = ({ setOpen, data }) => {
                   onClick={handleMessageSubmit}
                 >
                   <span className="text-[#fff] flex items-center">
-                    Send Message <AiOutlineMessage className="ml-1" />
+                    Чат продавца <AiOutlineMessage className="ml-1" />
                   </span>
                 </div>
                 <h5 className="text-[16px] text-[red] mt-5">(50) Sold out</h5>
@@ -117,10 +117,9 @@ const ProductDetailsCard = ({ setOpen, data }) => {
 
                 <div className="flex pt-3">
                   <h4 className={`${styles.productDiscountPrice}`}>
-                    {data.discountPrice}$
-                  </h4>
+                    {data.discountPrice}₽                  </h4>
                   <h3 className={`${styles.price}`}>
-                    {data.originalPrice ? data.originalPrice + "$" : null}
+                    {data.originalPrice ? data.originalPrice + "₽" : null}
                   </h3>
                 </div>
                 <div className="flex items-center mt-12 justify-between pr-3">
@@ -165,7 +164,7 @@ const ProductDetailsCard = ({ setOpen, data }) => {
                   onClick={() => addToCartHandler(data._id)}
                 >
                   <span className="text-[#fff] flex items-center">
-                    Add to cart <AiOutlineShoppingCart className="ml-1" />
+                    Добавить <AiOutlineShoppingCart className="ml-1" />
                   </span>
                 </div>
               </div>

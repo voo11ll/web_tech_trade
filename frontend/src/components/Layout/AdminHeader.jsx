@@ -5,6 +5,7 @@ import { FiPackage, FiShoppingBag } from 'react-icons/fi'
 import { MdOutlineLocalOffer } from 'react-icons/md'
 import { useSelector } from 'react-redux'
 import { Link } from 'react-router-dom'
+import logo from '../../Assests/image/image.svg';
 
 const AdminHeader = () => {
     const {user} = useSelector((state) => state.user);
@@ -14,8 +15,9 @@ const AdminHeader = () => {
       <div>
         <Link to="/">
           <img
-            src="https://shopo.quomodothemes.website/assets/images/logo.svg"
+            src={logo}
             alt=""
+            style={{ height: 'auto', width: '250px', marginLeft: '12px' }}
           />
         </Link>
       </div>

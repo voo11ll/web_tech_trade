@@ -1,6 +1,11 @@
 const mongoose = require("mongoose");
 
 const productSchema = new mongoose.Schema({
+  product_id: {
+    type: String,
+    unique: true,
+    required: true,
+  },
   name: {
     type: String,
     required: [true, "Please enter your product name!"],
@@ -53,10 +58,10 @@ const productSchema = new mongoose.Schema({
       productId: {
         type: String,
       },
-      createdAt:{
+      createdAt: {
         type: Date,
         default: Date.now(),
-      }
+      },
     },
   ],
   ratings: {

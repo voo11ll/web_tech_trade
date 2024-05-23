@@ -5,6 +5,7 @@ import HomePage from "../pages/HomePage";
 import ProductsPage from "../pages/ProductsPage";
 import BestSellingPage from "../pages/BestSellingPage";
 import EventsPage from "../pages/EventsPage";
+import TradePage from "../pages/TraidPage.jsx";
 import FAQPage from "../pages/FAQPage";
 import CheckoutPage from "../pages/CheckoutPage";
 import PaymentPage from "../pages/PaymentPage";
@@ -26,6 +27,7 @@ export {
     ProductsPage,
     BestSellingPage,
     EventsPage,
+    TradePage,
     FAQPage,
     CheckoutPage,
     PaymentPage,

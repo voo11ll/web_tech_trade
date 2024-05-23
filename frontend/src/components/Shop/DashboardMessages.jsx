@@ -402,7 +402,7 @@ const SellerInbox = ({
           })}
       </div>
 
-      {/* send message input */}
+      {/* Чат продавца input */}
       <form
         aria-required={true}
         className="p-3 relative w-full flex justify-between items-center"

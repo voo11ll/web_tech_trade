@@ -1,4 +1,4 @@
-// add to cart
+// Добавить
 export const addTocart = (data) => async (dispatch, getState) => {
   dispatch({
     type: "addToCart",

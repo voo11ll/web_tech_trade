@@ -1,23 +1,27 @@
 // navigation Data
 export const navItems = [
     {
-      title: "Home",
+      title: "Главная",
       url: "/",
     },
     {
-      title: "Best Selling",
+      title: "Популярный товары",
       url: "/best-selling",
     },
     {
-      title: "Products",
+      title: "Товары",
       url: "/products",
     },
     {
-      title: "Events",
+      title: "События",
       url: "/events",
     },
     {
-      title: "FAQ",
+      title: "Trade In",
+      url: "/trade-in",
+    },
+    {
+      title: "О компании",
       url: "/faq",
     },
   ];
@@ -26,8 +30,8 @@ export const navItems = [
   export const brandingData = [
     {
       id: 1,
-      title: "Free Shipping",
-      Description: "From all orders over 100$",
+      title: "Бесплатная доставка",
+      Description: "При заказе свыше 60000₽",
       icon: (
         <svg
           width="36"
@@ -191,73 +195,72 @@ export const navItems = [
   export const categoriesData = [
     {
       id: 1,
-      title: "Computers and Laptops",
+      title: "Apple",
       subTitle: "",
       image_Url:
-        "https://cdn.shopify.com/s/files/1/1706/9177/products/NEWAppleMacbookProwithM1ProChip14InchLaptop2021ModelMKGQ3LL_A_16GB_1TBSSD_custommacbd.jpg?v=1659592838",
+        "https://res.cloudinary.com/dqtz5reh6/image/upload/v1716492202/test/587ef37e7b1d7d0fb1623e44efadfcf6_puysoz.jpg",
     },
     {
       id: 2,
-      title: "cosmetics and body care",
+      title: "Samsung",
       subTitle: "",
       image_Url:
-        "https://indian-retailer.s3.ap-south-1.amazonaws.com/s3fs-public/2021-07/kosme1.png",
+        "https://res.cloudinary.com/dqtz5reh6/image/upload/v1716491312/test/1614585316_11-p-samsung-na-belom-fone-13_2_jyvxpq.png",
     },
     {
       id: 3,
-      title: "Accesories",
+      title: "Гаджеты",
       subTitle: "",
       image_Url:
-        "https://img.freepik.com/free-vector/ordering-goods-online-internet-store-online-shopping-niche-e-commerce-website-mother-buying-babies-clothes-footwear-toys-infant-accessories_335657-2345.jpg?w=2000",
+        "https://res.cloudinary.com/dqtz5reh6/image/upload/v1716491317/test/3_ekcxp7.jpg",
     },
     {
       id: 4,
-      title: "Cloths",
+      title: "Акссесуары",
       subTitle: "",
       image_Url:
-        "https://www.shift4shop.com/2015/images/industries/clothing/clothing-apparel.png",
+        "https://res.cloudinary.com/dqtz5reh6/image/upload/v1716491319/test/4_p5woxp.jpg",
     },
     {
       id: 5,
-      title: "Shoes",
+      title: "Наушники и гарнитуры",
       subTitle: "",
       image_Url:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvBQPQMVNRd6TtDkGs2dCri0Y-rxKkFOiEWw&usqp=CAU",
+        "https://res.cloudinary.com/dqtz5reh6/image/upload/v1716491320/test/5_hichfa.jpg",
     },
     {
       id: 6,
-      title: "Gifts",
+      title: "Видеоигры и хобби",
       subTitle: "",
-      // image_Url:
-      //   "https://securecdn.pymnts.com/wp-content/uploads/2014/11/Gifts-Photo-700x489.jpg",
+      image_Url: "https://res.cloudinary.com/dqtz5reh6/image/upload/v1716491312/test/6_ttda9k.jpg",
     },
-    // {
-    //   id: 7,
-    //   title: "Pet Care",
-    //   subTitle: "",
-    //   image_Url: "https://cdn.openpr.com/T/c/Tc15444071_g.jpg",
-    // },
+    {
+      id: 7,
+      title: "Сервисы и услуги",
+      subTitle: "",
+      image_Url: "https://res.cloudinary.com/dqtz5reh6/image/upload/v1716491314/test/Cosmo-legkost-sborki_ocb839.png",
+    },
     {
       id: 8,
-      title: "Mobile and Tablets",
+      title: "Iphone",
       subTitle: "",
       image_Url:
         "https://st-troy.mncdn.com/mnresize/1500/1500/Content/media/ProductImg/original/mpwp3tua-apple-iphone-14-256gb-mavi-mpwp3tua-637986832343472449.jpg",
     },
-    {
-      id: 9,
-      title: "Music and Gaming",
-      subTitle: "",
-      image_Url:
-        "https://static.vecteezy.com/system/resources/previews/011/996/555/original/3d-black-headphone-illustration-ecommerce-icon-png.png",
-    },
-    {
-      id: 10,
-      title: "Others",
-      subTitle: "",
-      image_Url:
-        "https://searchspring.com/wp-content/uploads/2022/10/Hero-Image-Platform-Others-2.png",
-    },
+    // {
+    //   id: 9,
+    //   title: "Music and Gaming",
+    //   subTitle: "",
+    //   image_Url:
+    //     "https://static.vecteezy.com/system/resources/previews/011/996/555/original/3d-black-headphone-illustration-ecommerce-icon-png.png",
+    // },
+    // {
+    //   id: 10,
+    //   title: "Others",
+    //   subTitle: "",
+    //   image_Url:
+    //     "https://searchspring.com/wp-content/uploads/2022/10/Hero-Image-Platform-Others-2.png",
+    // },
   ];
   
   // product Data
@@ -592,58 +595,58 @@ export const navItems = [
   ];
   
   export const footerProductLinks = [
-    {
-      name: "About us",
-      link: "/about"
-    },
-    {
-      name: "Careers",
-      link: "/carrers"
-    },
-    {
-      name: "Store Locations",
-    },
-    {
-      name: "Our Blog",
-    },
-    {
-      name: "Reviews",
-    },
+    // {
+    //   name: "About us",
+    //   link: "/about"
+    // },
+    // {
+    //   name: "Careers",
+    //   link: "/carrers"
+    // },
+    // {
+    //   name: "Store Locations",
+    // },
+    // {
+    //   name: "Our Blog",
+    // },
+    // {
+    //   name: "Reviews",
+    // },
   ];
   
   export const footercompanyLinks = [
-    {
-      name: "Game & Video",
-    },
-    {
-      name: "Phone &Tablets",
-    },
-    {
-      name: "Computers & Laptop",
-    },
-    {
-      name: "Sport Watches",
-    },
-    {
-      name: "Events",
-    },
+    // {
+    //   name: "Game & Video",
+    // },
+    // {
+    //   name: "Phone &Tablets",
+    // },
+    // {
+    //   name: "Computers & Laptop",
+    // },
+    // {
+    //   name: "Sport Watches",
+    // },
+    // {
+    //   name: "Events",
+    // },
   ];
   
   export const footerSupportLinks = [
-    {
-      name: "FAQ",
-    },
-    {
-      name: "Reviews",
-    },
-    {
-      name: "Contact Us",
-    },
-    {
-      name: "Shipping",
-    },
-    {
-      name: "Live chat",
-    },
+    // {
+    //   name: "FAQ",
+    // },
+    // {
+    //   name: "Reviews",
+    // },
+    // {
+    //   name: "Contact Us",
+    // },
+    // {
+    //   name: "Shipping",
+    // },
+    // {
+    //   name: "Live chat",
+    // },
   ];
   

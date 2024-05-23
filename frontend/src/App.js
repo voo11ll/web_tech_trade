@@ -9,6 +9,7 @@ import {
   ProductsPage,
   BestSellingPage,
   EventsPage,
+  TradePage,
   FAQPage,
   CheckoutPage,
   PaymentPage,
@@ -108,6 +109,7 @@ const App = () => {
         <Route path="/product/:id" element={<ProductDetailsPage />} />
         <Route path="/best-selling" element={<BestSellingPage />} />
         <Route path="/events" element={<EventsPage />} />
+        <Route path="/trade-in" element={<TradePage />} />
         <Route path="/faq" element={<FAQPage />} />
         <Route
           path="/checkout"

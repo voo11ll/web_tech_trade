@@ -96,7 +96,7 @@ const UserOrderDetails = () => {
             <div className="w-full">
               <h5 className="pl-3 text-[20px]">{item.name}</h5>
               <h5 className="pl-3 text-[20px] text-[#00000091]">
-                US${item.discountPrice} x {item.qty}
+                ₽{item.discountPrice} x {item.qty}
               </h5>
             </div>
             {!item.isReviewed && data?.status === "Delivered" ?  <div
@@ -135,7 +135,7 @@ const UserOrderDetails = () => {
               <div>
                 <div className="pl-3 text-[20px]">{selectedItem?.name}</div>
                 <h4 className="pl-3 text-[20px]">
-                  US${selectedItem?.discountPrice} x {selectedItem?.qty}
+                  ₽{selectedItem?.discountPrice} x {selectedItem?.qty}
                 </h4>
               </div>
             </div>
@@ -191,7 +191,7 @@ const UserOrderDetails = () => {
               className={`${styles.button} text-white text-[20px] ml-3`}
               onClick={rating > 1 ? reviewHandler : null}
             >
-              Submit
+              Подписаться
             </div>
           </div>
         </div>
@@ -199,7 +199,7 @@ const UserOrderDetails = () => {
 
       <div className="border-t w-full text-right">
         <h5 className="pt-3 text-[18px]">
-          Total Price: <strong>US${data?.totalPrice}</strong>
+          Total Price: <strong>₽{data?.totalPrice}</strong>
         </h5>
       </div>
       <br />
@@ -234,7 +234,7 @@ const UserOrderDetails = () => {
       </div>
       <br />
       <Link to="/">
-        <div className={`${styles.button} text-white`}>Send Message</div>
+        <div className={`${styles.button} text-white`}>Чат продавца</div>
       </Link>
       <br />
       <br />

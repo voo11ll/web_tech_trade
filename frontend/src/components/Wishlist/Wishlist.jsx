@@ -88,11 +88,11 @@ const CartSingle = ({ data,removeFromWishlistHandler,addToCartHandler }) => {
         <div className="pl-[5px]">
           <h1>{data.name}</h1>
           <h4 className="font-[600] pt-3 800px:pt-[3px] text-[17px] text-[#d02222] font-Roboto">
-            US${totalPrice}
+            ₽{totalPrice}
           </h4>
         </div>
         <div>
-          <BsCartPlus size={20} className="cursor-pointer" tile="Add to cart"
+          <BsCartPlus size={20} className="cursor-pointer" tile="Добавить"
            onClick={() => addToCartHandler(data)}
           />
         </div>
