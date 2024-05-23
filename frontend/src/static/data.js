@@ -198,7 +198,7 @@ export const navItems = [
       title: "Apple",
       subTitle: "",
       image_Url:
-        "https://res.cloudinary.com/dqtz5reh6/image/upload/v1716492202/test/587ef37e7b1d7d0fb1623e44efadfcf6_puysoz.jpg",
+        "https://res.cloudinary.com/dqtz5reh6/image/upload/v1716493613/test/587ef37e7b1d7d0fb1623e44efadfcf6_2_ck6piq.jpg",
     },
     {
       id: 2,
@@ -219,14 +219,14 @@ export const navItems = [
       title: "Акссесуары",
       subTitle: "",
       image_Url:
-        "https://res.cloudinary.com/dqtz5reh6/image/upload/v1716491319/test/4_p5woxp.jpg",
+        "https://res.cloudinary.com/dqtz5reh6/image/upload/v1716493616/test/1614585316_11-p-samsung-na-belom-fone-13_3_kzaqbl.png",
     },
     {
       id: 5,
       title: "Наушники и гарнитуры",
       subTitle: "",
       image_Url:
-        "https://res.cloudinary.com/dqtz5reh6/image/upload/v1716491320/test/5_hichfa.jpg",
+        "https://res.cloudinary.com/dqtz5reh6/image/upload/v1716493618/test/4_xdctp3.png",
     },
     {
       id: 6,
@@ -240,13 +240,13 @@ export const navItems = [
       subTitle: "",
       image_Url: "https://res.cloudinary.com/dqtz5reh6/image/upload/v1716491314/test/Cosmo-legkost-sborki_ocb839.png",
     },
-    {
-      id: 8,
-      title: "Iphone",
-      subTitle: "",
-      image_Url:
-        "https://st-troy.mncdn.com/mnresize/1500/1500/Content/media/ProductImg/original/mpwp3tua-apple-iphone-14-256gb-mavi-mpwp3tua-637986832343472449.jpg",
-    },
+    // {
+    //   id: 8,
+    //   title: "Iphone",
+    //   subTitle: "",
+    //   image_Url:
+    //     "https://st-troy.mncdn.com/mnresize/1500/1500/Content/media/ProductImg/original/mpwp3tua-apple-iphone-14-256gb-mavi-mpwp3tua-637986832343472449.jpg",
+    // },
     // {
     //   id: 9,
     //   title: "Music and Gaming",
